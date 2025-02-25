@@ -1,0 +1,136 @@
+.popup {
+    display: none;
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.popup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.popup-content {
+    background-color: white;
+    padding: 25px 30px;
+    width: 600px;
+    border-radius: 10px;
+}
+
+.popup-content .popup-title {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    margin-top: 0;
+}
+
+.popup-content .popup-title h1 {
+    font-size: 30px;
+    color: #ff966c;
+}
+.popup-content .popup-title p {
+    font-size: 16px;
+    font-style: italic;
+    color: #44312e;
+}
+
+.popup-content .popup-line {
+    margin-top: 10px;
+    border-top: 0.5px solid #ff966c;
+}
+
+.popup-form form {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.popup-form .box label {
+    font-size: 13.5px;
+    letter-spacing: 1px;
+    color: #ff966c;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.popup-form .box input {
+    font-size: 16px;
+    letter-spacing: 1px;
+    width: 100%;
+    height: 35px;
+    padding: 5px 12px;
+    box-sizing: border-box;
+    margin-top: 3px;
+    border: 0;
+    color: #44312e;
+    border: 1px solid #aaa;
+}
+
+.popup-form .box select {
+    font-size: 16px;
+    letter-spacing: 1px;
+    width: 100%;
+    height: 35px;
+    padding: 5px 12px;
+    box-sizing: border-box;
+    margin-top: 3px;
+    border: 0;
+    color: #44312e;
+    border: 1px solid #aaa;
+}
+
+.popup-form .box textarea {
+    font-size: 16px;
+    letter-spacing: 1px;
+    width: 100%;
+    height: 120px;
+    padding: 5px 12px;
+    box-sizing: border-box;
+    margin-top: 3px;
+    border: 0;
+    color: #44312e;
+    border: 1px solid #aaa;
+    resize: none;
+}
+
+.popup-btn {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.popup-btn button {
+    color: white;
+    border: none;
+    width: 150px;
+    height: 33px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.popup-btn .add-btn, .popup-btn .edit-btn, .popup-btn .delete-btn {
+    background-color: #ff966c;
+}
+
+.popup-btn .cancel-btn {
+    background-color: brown;
+}
+
+.popup-btn .add-btn:hover, .popup-btn .edit-btn:hover, .popup-btn .delete-btn:hover{
+    background-color: #ff662a;
+}
+
+.popup-btn .cancel-btn:hover {
+    background-color: rgb(255, 0, 0);
+}

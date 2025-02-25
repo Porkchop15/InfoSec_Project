@@ -1,0 +1,64 @@
+/* TABLE */
+
+.tbl-container {
+    margin-top: 15px;
+    padding-bottom: 30px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid white;
+    text-align: left;
+    padding: 5px;
+    text-align: left;
+    color: #44312e;
+}
+
+th {
+    color: white;
+    background-color: #ff966c;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 1.5px;
+}
+
+td {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+td button {
+    width: 30px;
+    height: 30px;
+    border: 0;
+    border-radius: 5px;
+}
+
+td button img {
+    width: 15px;
+    height: 15px;
+}
+
+tr:nth-child(even) {
+    background-color: #ffefe9;
+}
+
+td .edit {
+    background-color: rgb(255, 166, 0);
+}
+  
+td .delete {
+    background-color: brown;
+}
+
+td .edit:hover{
+    background-color: rgb(255, 181, 44);
+}
+
+td .delete:hover {
+    background-color: rgb(255, 51, 51);
+}

@@ -1,0 +1,168 @@
+/* HEADER */
+.header-container {
+    display: block;
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 10px 15px -10px #ff966c58;
+    padding: 5px 20px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+}
+
+/* LOGO */
+
+.header .logo_link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    gap: 5px;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.header a {
+    color: #ff966c;
+}
+
+.header .logo img {
+    width: 50px;
+    height: 45px;
+}
+
+.header .logo p {
+    color: #44312e;
+}
+
+.header .logo p span {
+    color: #ff966c;
+}
+
+/* MIDDLE LINKS */
+
+.middle-links {
+    display: flex;
+    gap: 40px;
+}
+
+.middle-links a {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.middle-links a:hover {
+    color: #ff662a;
+}
+
+/* RIGHT LINKS */
+.right-links button {
+    width: 90px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+}
+
+.right-links .login-btn {
+    background: #ff966c;
+    color: #fff;
+    border-radius: 100px;
+}
+
+.right-links .signup-btn {
+    color: #ff966c;
+    background: white;
+}
+
+.right-links .login-btn:hover {
+    background: #ff662a;
+}
+
+ .right-links .signup-btn:hover {
+    color: #ff662a;
+}
+
+/* DROPDOWN */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown button {
+    width: 50px;
+    height: 50px;
+    outline: 0;
+    border: 0;
+    border-radius: 5px;
+    margin: 5px 0;
+    background: none;
+}
+
+.dropdown button img {
+    height: 30px;
+    width: 30px;
+}
+
+.dropdown a {
+    display: flex;
+    color: #ff966c;
+    padding: 15px 10px;
+    font-weight: 600;
+    gap: 10px;
+}
+
+.dropdown a img {
+    width: 25px;
+    height: 25px;
+}
+
+.dropdown a p {
+    font-size: 16px;
+}
+
+.dropdown .drpd-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    right: 0;
+    left: auto;
+    padding: 10px;
+}
+
+.dropdown .drpd-logout {
+    background-color: #D12C2C;
+    color: white;
+    padding-left: 12px;
+}
+
+.dropdown:hover .drpd-content{
+    display: block;
+}
+
+.dropdown:hover button {
+    background-color: #ffe6dd;
+}
+
+.dropdown a:hover {
+    background-color: #ffe6dd;
+}
+
+.dropdown .drpd-logout:hover {
+    background-color: #ff2e2e;
+}
+

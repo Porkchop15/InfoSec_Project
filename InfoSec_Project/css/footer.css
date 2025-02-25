@@ -1,0 +1,43 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer img {
+    margin-top: 25px;
+    width: 40px;
+    height: 35px;
+}
+
+.footer-links a {
+    color: #ff966c;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+
+.footer-links a:hover {
+    color: #ff662a;
+}
+
+.footer-links {
+    display: flex;
+    gap: 50px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.line {
+    border-bottom: 1px solid #ff966c;
+    width: 90%;
+}
+
+footer p {
+    color: #ff966c;
+    font-size: 14.5px;
+    font-weight: 600;
+    padding: 15px;
+}
+

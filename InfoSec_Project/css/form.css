@@ -1,0 +1,145 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.form-section {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+/* RETURN */
+.return {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.return img {
+    width: 45px;
+    height: 45px;
+}
+
+/* DETAILS */
+.details {
+    order: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.details .logo {
+    width: 150px;
+    height: 130px;
+}
+
+.details .form-img {
+    width: 550px;
+    height: 350px;
+}
+
+.details h1 {
+    color: #44312e;
+    font-size: 25px;
+    font-weight: 800;
+    margin-top: 5px;
+}
+
+.details h1 span {
+    color: #ff966c;
+}
+
+.details p {
+    color: #ff966c;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: italic;
+    margin-top: 15px;
+}
+
+/* LOGIN AND REGISTER */
+
+.form-container {
+    order: 2;
+    width: 420px;
+    color: white;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.form-container h1 {
+    color: #ff966c;
+    font-size: 36px;
+    text-align: center;
+}
+
+.form-container p {
+    color: #44312e;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 5px;
+    font-size: 14.5px;
+}
+
+.form-container .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 15px 0;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    outline: none;
+    border: 2px solid rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    font-size: 16px;
+    color: #44312e;
+    padding: 20px 20px 20px 20px;
+}
+
+.input-box input:hover {
+    border: 2px solid #ff966c;
+}
+
+.form-container button {
+    width: 100%;
+    height: 45px;
+    background: #ff966c;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.form-container button:hover {
+    background: #ff662a;
+}
+
+.form-container .link {
+    font-size: 14.5px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.link p {
+    color: #44312e;
+}
+
+.link p a {
+    color: #ff966c;
+    font-weight: 600;
+}
+
+.link p a:hover {
+    color: #ff662a;
+}

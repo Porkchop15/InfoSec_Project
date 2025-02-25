@@ -1,0 +1,276 @@
+.home-section {
+    padding-top: 50px;
+}
+
+/* HOME - HERO */
+.home-hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+}
+.home-hero .logo {
+    width: 140px;
+    height: 120px;
+}
+
+.home-hero p {
+    color: #44312e;
+    font-weight: 700;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.home-hero p span {
+    color: #ff966c;
+}
+
+.home-hero h1 {
+    color: #333;
+    margin-top: 15px;
+    font-size: 40px;
+}
+
+.home-hero button {
+    color: white;
+    background-color: #ff966c;
+    margin-top: 5px;
+    font-size: 16px;
+    border: none;
+    width: 210px;
+    height: 35px;
+    font-weight: 700;
+    border-radius: 20px;
+    margin: 25px 0;
+}
+
+.home-hero button:hover {
+    background-color: #ff662a;
+}
+
+.home-hero .animal-hero {
+    width: 100%;
+}
+
+/* HOME - SERVICES */
+
+.home-services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff966c;
+    padding-top: 20px;
+}
+
+.home-services h1 {
+    color: white;
+    font-size: 30px;
+    letter-spacing: 1.5px;
+}
+
+.home-services p {
+    color: white;
+    font-size: 18px;
+    letter-spacing: -0.2px;
+    margin-top: 5px;
+}
+
+.home-services .animal-services {
+    width: 100%;
+}
+
+.services-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 40px;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.services-box {
+    background-color: white;
+    border-radius: 25px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+    max-width: 350px;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.services-box img {
+    width: 100px;
+    height: 100px;
+}
+
+.services-box h1 {
+    color: #ff966c;
+    font-size: 20px;
+}
+
+.services-box p {
+    color: #44312e;
+    font-size: 16px;
+}
+
+.services-box button {
+    background-color: #ff966c;
+    border: none;
+    padding: 5px;
+    width: 300px;
+    height: 35px;
+    color: white;
+    border-radius: 20px;
+    font-weight: 700;
+}
+
+.services-box button:hover {
+    background-color: #ff662a;
+}
+
+/* HOME - HOW IT WORKS */
+
+.home-hiw {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    text-align: center;
+    background-color: white;
+}
+
+.home-hiw h1 {
+    color: #44312e;
+    font-size: 25px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+
+.home-hiw p {
+    color: #44312e;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.hiw-content {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.hiw-content img {
+    height: 1050px;
+}
+
+.hiw-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+    justify-content: space-around;
+    margin-bottom: 80px;
+}
+
+.hiw-box {
+    background-color: #ff966c;
+    border-radius: 25px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    max-width: 350px;
+    gap: 10px;
+}
+
+.hiw-box .step {
+    margin-bottom: 10px;
+}
+
+.hiw-box img {
+    width: 100px;
+    height: 100px;
+}
+
+.hiw-box h1 {
+    color: white;
+    font-size: 20px;
+    line-height: 0;
+}
+
+.hiw-box p {
+    color: #fef5f1;
+    font-size: 16px;
+}
+
+.hiw-box button {
+    background-color: white;
+    border: none;
+    padding: 5px;
+    width: 300px;
+    height: 35px;
+    color: #ff966c;
+    border-radius: 20px;
+    font-weight: 700;
+}
+
+.hiw-box button:hover {
+    color: #ff662a;
+}
+
+.hiw-box:hover {
+    background-color: #ff662a;
+}
+
+/* HOME - CONTACT */
+
+.home-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    text-align: center;
+    background-color: #ff966c;
+}
+
+.home-contact  h1{
+    color: white;
+    font-size: 25px;
+}
+
+.home-contact  p {
+    color: white;
+    font-size: 18px;
+}
+
+.home-contact  img {
+    width: 570px;
+}
+
+.contact-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+.social-container {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 25px;
+}
+
+.social-container img {
+    width: 50px;
+    height: 50px;
+}
